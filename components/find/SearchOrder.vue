@@ -49,7 +49,10 @@ export default {
         const order = await getOrder(this.value)
         this.$emit('update-value', order)
       } catch (e) {
-        this.isError = true
+        setTimeout(() => {
+          this.isError = true
+        }, 2000)
+        this.$emit('update-value', {})
       }
     },
   },
