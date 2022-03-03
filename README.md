@@ -24,3 +24,7 @@ To find a new order you can use the following IDs:
     - 3
 
 Those were created beforehand. Of course you can also create new ones and then search them. Just remember to take note of the provided ID.
+
+## API Usage
+
+As of today (2nd March 2022) the API is disabled. You are not longer able to find or create new moovers.
